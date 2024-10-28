@@ -1,0 +1,16 @@
+{
+  "name": "ejemplo1",
+  "version": "1.0.0",
+  "description": "mi primera app js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "Alejandro Chapi",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
