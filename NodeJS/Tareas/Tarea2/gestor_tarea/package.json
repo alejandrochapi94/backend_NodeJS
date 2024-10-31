@@ -1,0 +1,16 @@
+{
+  "name": "gestor_tarea",
+  "version": "1.0.0",
+  "description": "gestor de tareas",
+  "main": "tareas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tareas.js",
+    "dev": "nodemon tareas.js"
+  },
+  "author": "elie abud",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

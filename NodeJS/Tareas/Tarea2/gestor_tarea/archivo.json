@@ -1,0 +1,84 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "nombre": "Hacer la compra",
+      "completada": true
+    },
+    {
+      "id": 2,
+      "nombre": "Estudiar para el examen",
+      "completada": true
+    },
+    {
+      "id": 3,
+      "nombre": "Llamar al médico",
+      "completada": true
+    },
+    {
+      "id": 4,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 5,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 6,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 7,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 8,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 9,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 10,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 11,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 12,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 13,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 14,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 15,
+      "nombre": "tarea especial",
+      "completada": false
+    },
+    {
+      "id": 16,
+      "nombre": "tarea especial",
+      "completada": false
+    }
+  ]
+}
