@@ -1,0 +1,16 @@
+{
+  "name": "tarea1.1",
+  "version": "1.0.0",
+  "description": "practica de inicio node js",
+  "main": "tarea.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tarea.js",
+    "dev": "nodemon tarea.js"
+  },
+  "author": "elie abud",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
