@@ -47,4 +47,4 @@ class Inventario {
     }
 }
 
-
+module.exports = Inventario;

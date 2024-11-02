@@ -1,0 +1,8 @@
+
+Total de ventas del mes 01 : 1470000
+Total de ventas del mes 02 : 1720000
+Total de ventas del mes 01 : 1470000
+Total de ventas del mes 02 : 1720000
+Total de ventas del mes 01 : 1470000
+Total de ventas del mes 02 : 1720000
+Promedio de ventas diarias del mes 01 : 25000
