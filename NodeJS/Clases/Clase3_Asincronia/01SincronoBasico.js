@@ -1,4 +1,4 @@
-const fs = require('node:fs')
+const fs = require('node:fs') //importa el modulo fs de forma más moderna
 
 console.log('Leyendo el primer archivo...')
 const text = fs.readFileSync('./archivo.txt', 'utf-8')

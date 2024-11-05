@@ -4,7 +4,7 @@
 // const { promisify } = require('node:util')
 // const readFilePromise = promisify(fs.readFile)
 
-import { readFile } from 'node:fs/promises'
+import { readFile } from 'node:fs/promises'//ES6
 
 Promise.all([
   readFile('./archivo.txt', 'utf-8'),
