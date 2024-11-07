@@ -1,0 +1,22 @@
+{
+  "name": "clase5_api_rest2",
+  "version": "1.0.0",
+  "description": "API 2 con tickets",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=prod && node server.js",
+    "dev": "set NODE_ENV=dev && nodemon server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
