@@ -1,0 +1,21 @@
+{
+  "name": "clase4_api_rest1",
+  "version": "1.0.0",
+  "description": "api rest 1",
+  "main": "index.js",
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
