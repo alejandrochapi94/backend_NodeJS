@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interacción con la API</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container my-4">
+  <h1 class="mb-4">Interacción con la API de Usuarios</h1>
+  
+  <!-- Formulario para Crear un Usuario -->
+  <h2>Crear Usuario</h2>
+  
+  <form id="createUserForm" class="mb-4 col-6">
+    <div class="mb-3">
+      <input type="text" id="name" class="form-control" placeholder="Nombre" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" id="email" class="form-control" placeholder="Correo Electrónico" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Usuario</button>
+  </form>
+
+  <!-- Mostrar Usuarios -->
+  <h2>Lista de Usuarios</h2>
+  <button onclick="getUsers()" class="btn btn-secondary mb-3">Obtener Usuarios</button>
+  <ul id="userList" class="list-group mb-4"></ul>
+
+  <!-- Formulario para Actualizar Usuario -->
+  <h2>Actualizar Usuario</h2>
+  <form id="updateUserForm" class="mb-4 col-6">
+    <div class="mb-3">
+      <input type="number" id="updateId" class="form-control" placeholder="ID del Usuario" required>
+    </div>
+    <div class="mb-3">
+      <input type="text" id="updateName" class="form-control" placeholder="Nuevo Nombre">
+    </div>
+    <div class="mb-3">
+      <input type="email" id="updateEmail" class="form-control" placeholder="Nuevo Correo Electrónico">
+    </div>
+    <button type="submit" class="btn btn-warning">Actualizar Usuario</button>
+  </form>
+
+  <!-- Formulario para Eliminar Usuario -->
+  <h2>Eliminar Usuario</h2>
+  <form id="deleteUserForm" class="mb-4 col-6">
+    <div class="mb-3">
+      <input type="number" id="deleteId" class="form-control" placeholder="ID del Usuario a Eliminar" required>
+    </div>
+    <button type="submit" class="btn btn-danger">Eliminar Usuario</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
