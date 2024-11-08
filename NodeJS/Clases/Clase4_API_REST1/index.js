@@ -1,5 +1,5 @@
-const express = require('express');
-const cors = require('cors');
+const express = require('express'); // npm i -D express npm install nodemon --save-dev
+const cors = require('cors'); //npm i -D cors
 const app = express();
 const PORT = process.env.PORT || 3000;
 
