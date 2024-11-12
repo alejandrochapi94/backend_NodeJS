@@ -1,5 +1,5 @@
 //Servidor
-import "dotenv/config";
+import "dotenv/config"; //npm install dotenv
 //Immportación del módulo1
 import app from "./modulo1.js"; //Error
 
@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3000; //En el servidor no poemos elegir este pu
 //Iniciar el servidor (Poner al servidor a escuchar)
 const server = app.listen(PORT, () => {
     //Para saber que puerto esta escuchando
+    console.log(`El entorno de ejecución es: ${process.env.NODE_ENV}`);
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
 

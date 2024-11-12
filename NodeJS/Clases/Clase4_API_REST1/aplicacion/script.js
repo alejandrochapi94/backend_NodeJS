@@ -3,7 +3,7 @@ const apiUrl = 'http://localhost:3000/api/users';
 // Función para obtener usuarios
 async function getUsers() {
   try {
-    const response = await fetch(apiUrl);
+    const response = await fetch(apiUrl); //Método get principal
     const users = await response.json();
 
     const userList = document.getElementById('userList');

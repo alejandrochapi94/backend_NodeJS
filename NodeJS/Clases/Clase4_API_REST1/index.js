@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express');//npm install nodemon 
 const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -17,13 +17,15 @@ app.use(cors({ origin: 'http://127.0.0.1:5500' })); // Reemplaza con la URL desd
 app.use(express.json());
 
 // Rutas
-app.get('/', (req, res) => {
-  res.send('¡Bienvenido a mi API REST!');
+app.get('/api', (req, res) => {
+  res.send('¡Bienvenido a mi API REST!');//la api retorna una respuesta
 });
 
 // Importa tus rutas
 const userRoutes = require('./routes/userRoutes');
-app.use('/api/users', userRoutes);
+app.use('/users/user', userRoutes);
+
+//http://localhost:3000/users/user/
 
 // Inicia el servidor
 app.listen(PORT, () => {
