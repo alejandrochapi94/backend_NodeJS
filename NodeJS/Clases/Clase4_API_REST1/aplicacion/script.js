@@ -32,10 +32,10 @@ document.getElementById('createUserForm').addEventListener('submit', async (even
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ name, email })
+      body: JSON.stringify({ name, email }) //un objeto a string (json)
     });
     
-    const newUser = await response.json();
+    const newUser = await response.json(); //guardamos en newUser el objeto json
     console.log('Usuario creado:', newUser);
 
     getUsers(); // Actualizar la lista de usuarios
