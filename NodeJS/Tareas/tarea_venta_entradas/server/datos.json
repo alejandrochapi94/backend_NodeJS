@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombreCompleto": "elie",
+    "cedula": "1234",
+    "email": "elie@",
+    "tarjeta": "1234"
+  },
+  {
+    "id": 2,
+    "nombreCompleto": "jose",
+    "cedula": "1234",
+    "email": "jose@",
+    "tarjeta": "1234"
+  }
+]

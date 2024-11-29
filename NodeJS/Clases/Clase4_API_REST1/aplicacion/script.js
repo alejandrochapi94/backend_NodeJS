@@ -35,7 +35,7 @@ document.getElementById('createUserForm').addEventListener('submit', async (even
       body: JSON.stringify({ name, email })
     });
     
-    const newUser = await response.json();
+    const newUser = await response.json(); //respuesta del metodo post
     console.log('Usuario creado:', newUser);
 
     getUsers(); // Actualizar la lista de usuarios

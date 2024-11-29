@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Entradas - Concierto de Rock</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card bg-dark border-light">
+                    <div class="card-header border-light">
+                        <h1 class="text-center text-light">🎸 Entradas Concierto de Rock 🎸</h1>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <!-- Nombre Completo -->
+                            <div class="mb-3">
+                                <label for="nombreCompleto" class="form-label text-light">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombreCompleto" required>
+                            </div>
+
+                            <!-- Cédula -->
+                            <div class="mb-3">
+                                <label for="cedula" class="form-label text-light">Cédula de Identidad</label>
+                                <input type="text" class="form-control" id="cedula" required>
+                            </div>
+
+                            <!-- Correo -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-light">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+
+                            <!-- Tarjeta de Crédito -->
+                            <div class="mb-3">
+                                <label for="tarjeta" class="form-label text-light">Número de Tarjeta de Crédito</label>
+                                <input type="text" class="form-control" id="tarjeta" required 
+                                       maxlength="16" placeholder="1234 5678 9012 3456">
+                            </div>
+
+                            <!-- Botón de Envío -->
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg" id="btn-comprar">
+                                    Comprar Entrada
+                                </button>
+                            </div>
+                        </form>
+                        <h2 class="text-light mt-4 mb-3">Entradas Vendidas</h2>
+                        <div id="datos" class="text-light"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

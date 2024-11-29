@@ -14,7 +14,7 @@ app.use(cors(corsOptions));
 //app.use(cors());
 app.use(cors({ origin: 'http://127.0.0.1:5500' })); // Reemplaza con la URL desde la cual accedes a tu API
 
-app.use(express.json());
+app.use(express.json());//hablar español
 
 // Rutas
 app.get('/', (req, res) => {
@@ -29,3 +29,5 @@ app.use('/api/users', userRoutes);
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
+
+//Creamos el mesero
