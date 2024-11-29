@@ -1,8 +1,21 @@
 const users = []; // Array temporal como "base de datos" (para propósitos de demostración)
 
 // Obtener todos los usuarios
+const fs = require('fs');
+const path = require('path');
+
 exports.getAllUsers = (req, res) => {
-  res.json(users);
+  //const filePath = path.join(__dirname, 'datos.json');
+  const filePath = './controllers/datos.json'; //ruta desde donde se lanza node
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).json({ message: 'Error al leer el archivo' });
+    } else {
+      const users = JSON.parse(data);
+      res.json(users);
+    }
+  });
 };
 
 // Obtener un usuario por ID

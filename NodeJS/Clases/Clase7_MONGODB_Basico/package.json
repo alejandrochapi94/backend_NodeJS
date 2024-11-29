@@ -1,0 +1,21 @@
+{
+  "name": "clase7_mongodb_basico",
+  "version": "1.0.0",
+  "description": "Ejercicio basico nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=prod && node index.js",
+    "dev": "set NODE_ENV=dev && nodemon index.js"
+  },
+  "author": "Alejandro Chapi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
