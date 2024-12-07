@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 // Rutas de usuarios
 app.use('/users', require('./routes/userRoutes'));
 
-// Iniciar servidor
+// Iniciar servidors
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });

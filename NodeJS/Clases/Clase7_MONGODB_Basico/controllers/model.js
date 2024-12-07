@@ -10,7 +10,11 @@ const userModel = new mongoose.Schema(
         },
         password: {
             type: String
-        }
+        },
+
+         direccion: {
+            type: String
+         }
     },
     {
         timestamps: true,
